@@ -1,11 +1,19 @@
 {
       "cSpell.words": [
             "Arabica",
+            "Campaignbservable",
+            "Chinnamon",
+            "hasfocus",
+            "ifnot",
             "Lemontea",
             "Mocca",
             "MOZARTALMOSTDIRTY",
             "Orio",
             "oriomilk",
-            "Thaitea"
+            "templating",
+            "Thaitea",
+            "Tmpl",
+            "unmemoize",
+            "viewmodel"
       ]
 }
