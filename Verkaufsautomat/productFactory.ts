@@ -7,7 +7,7 @@
 import * as products from "./product"   
 
 
-export default function GetProduct():products.product {
+export default function GetProduct():products.Product {
       let random = Math.floor(Math.random() * 7);  
       switch (random) {
           case 0: 
