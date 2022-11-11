@@ -1,0 +1,13 @@
+{
+      "name": "Push Noti", 
+      "short_name": "Push Noti",   
+      "icons": [{  
+            "src": "icon",
+            "sizes": "192x192",  
+            "type": "image/png"
+         }],  
+      "start_url": "/index.html?homescreen=1",
+      "display": "standalone",
+      "gcm_sender_id": "854363388025",
+      "gcm_user_visible_only": true
+}

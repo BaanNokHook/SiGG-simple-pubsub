@@ -1,0 +1,13 @@
+{
+      "cSpell.words": [
+            "litecoin"
+      ],
+      "git.mergeEditor": false,
+      "merge-conflict.codeLens.enabled": false,
+      "merge-conflict.decorators.enabled": false,
+      "git-graph.repository.commits.mute.mergeCommits": false,
+      "git-graph.dialog.merge.noFastForward": false,
+      "merge-conflict.diffViewPosition": "Current",
+      "html.format.preserveNewLines": true,
+      "html.suggest.html5": true
+}
