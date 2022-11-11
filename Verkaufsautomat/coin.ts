@@ -5,6 +5,9 @@
  */
 
 export abstract class Coin {
+    static observable(arg0: number) {
+        throw new Error("Method not implemented.");
+    }
     constructor(public value:number) {
     } 
 
@@ -50,5 +53,17 @@ export class ten_baht extends Coin {
         return "img/ten_baht.jpg";
     }
 
+}
+
+
+export function observable(arg0: number) {
+    throw new Error("Function not implemented.");
+}
+
+export function observableArray(arg0: undefined[]) {
+    throw new Error("Function not implemented.");
+}
+export function pureComputed(arg0: () => boolean) {
+    throw new Error("Function not implemented.");
 }
 
