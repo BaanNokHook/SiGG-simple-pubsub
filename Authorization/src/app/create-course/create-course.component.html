@@ -1,0 +1,224 @@
+<div class="create-course-panel data-form">
+
+  <h2 class="title">SiGG-Decentralized Authorization</h2>
+
+    <mat-horizontal-stepper class="mat-elevation-z5"
+                            labelPosition="bottom"
+                            [linear]="true">
+
+        <mat-step errorMessage="Course details in error">
+
+            <ng-template matStepLabel>Generate Header</ng-template>
+
+            <create-course-step-1></create-course-step-1>
+
+            <div class="stepper-buttons">
+
+                <button mat-raised-button color="primary" matStepperNext>
+                    Select Credential Type
+                </button>
+
+            </div>
+
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Select Credential Type</ng-template>
+
+            <create-course-step-2></create-course-step-2>
+
+            <div class="stepper-buttons">
+
+                <button mat-raised-button matStepperPrevious>Back</button>
+
+                <button mat-raised-button color="accent" matStepperNext>Initiate Issuance-Cross device</button>
+
+            </div>
+
+        </mat-step>
+
+        
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Initiate Issuance-Cross device</ng-template>
+
+            <create-course-step-3></create-course-step-3>
+
+            <div class="stepper-buttons">
+
+                <button mat-raised-button matStepperPrevious>Back</button>
+
+                <button mat-raised-button color="accent" matStepperNext>Initiate Issuance-Same device</button>
+
+            </div>
+
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Initiate Issuance-Same device</ng-template>
+
+            <create-course-step-4></create-course-step-4>
+
+            <div class="stepper-buttons">
+
+                <button mat-raised-button matStepperPrevious>Back</button>
+
+                <button mat-raised-button color="accent" matStepperNext>Inspect logs</button>
+
+            </div>
+
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Inspect logs</ng-template>
+
+            <create-course-step-5></create-course-step-5>
+
+            <div class="stepper-buttons">
+
+                <button mat-raised-button matStepperPrevious>Back</button>
+
+                <button mat-raised-button color="accent" matStepperNext>Generate Header</button>
+
+            </div>
+
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Generate Header</ng-template>
+            
+            <create-course-step-6></create-course-step-6>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>Initiate Authentication - Cross device</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Initiate Authentication - Cross device</ng-template>
+            
+            <create-course-step-7></create-course-step-7>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>Initiate Authentication - Same device</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Initiate Authentication - Same device</ng-template>
+            
+            <create-course-step-8></create-course-step-8>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>Inspect logs</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>Inspect logs</ng-template>
+            
+            <create-course-step-9></create-course-step-9>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>Process done! and DID resolver-Legal entity</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>DID resolver - Legal entity</ng-template>
+            
+            <create-course-step-10></create-course-step-10>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>DID resolver - Natural person</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>DID resolver - Natural person</ng-template>
+            
+            <create-course-step-11></create-course-step-11>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>VC validator</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>VC validator</ng-template>
+            
+            <create-course-step-12></create-course-step-12>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <button mat-raised-button color="accent" matStepperNext>VP validator</button>
+            
+            </div>
+            
+        </mat-step>
+
+        <mat-step errorMessage="Course lessons in error">
+
+            <ng-template matStepLabel>VP validator</ng-template>
+            
+            <create-course-step-13></create-course-step-13>
+            
+            <div class="stepper-buttons">
+            
+                <button mat-raised-button matStepperPrevious>Back</button>
+            
+                <!-- <button mat-raised-button color="accent" matStepperNext></button> -->
+            
+            </div>
+            
+        </mat-step>
+
+
+    </mat-horizontal-stepper>
+
+
+</div>
+
+

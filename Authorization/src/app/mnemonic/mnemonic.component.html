@@ -1,0 +1,357 @@
+      <div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+              <div class="text-center">
+                    <h2 class="text-center"> Login form with Validation using SiGG-Decentralized Authorization</h2>
+                    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" novalidate class="d-flex-center">
+                      <div class="example-container">
+                        <div>
+                          <mat-form-field>
+                            <input matInput placeholder="Email" formControlName="email">
+                            <mat-error *ngIf="!loginForm.get('email')?.errors?.required && (loginForm.get('email')?.errors?.pattern)">
+                              Please enter a valid email address
+                            </mat-error>
+                            <mat-error *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched) && loginForm.get('email')?.errors?.required">
+                              Email is required
+                            </mat-error>
+                          </mat-form-field>
+                        </div>
+                        <div class="mt-top-2">
+                          <mat-form-field>
+                            <input matInput type="password" placeholder="Password" formControlName="password">    
+                            <mat-error *ngIf="!loginForm.get('password')?.errors?.required">
+                              Password length must be greater than or equal to 8 and password must contain one or more uppercase , lowercase , numeric and special characters
+                            </mat-error>
+                            <mat-error *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched) && loginForm.get('password')?.errors?.required">
+                              Password is required
+                            </mat-error>
+                          </mat-form-field>
+                        </div>
+                        <div class="mt-top">
+                          <button [disabled]="!loginForm.valid" mat-raised-button color="primary" mat-button>Sign In</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+      </div>
+
+      
+    <div class="container">
+      <div class="btn2">
+        <tr>
+          <td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td>
+          <td>
+            <h3  class="btn3Z"  href="javascript:void(0)" style="color:rgb(8, 53, 218)">Please arrange all 5 sets. [via E-mail]</h3>
+          <input class="btn3Y"  type="text" font-size="45"  style="color:blue" value="Please arrange all 5 sets."> 
+          </td>
+    </tr>
+    <div class="btnYY"></div>
+      <tr>
+        <td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="Validate#@outlook.io" readonly>               
+        </td>                   
+        <div class="btnYY"></div>    
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="WebGL@seedphase.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="ThECoP@yahoo.io" readonly>   
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="MeThOD@microsoft.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text" style="color:rgb(8, 53, 218)" font-size="40" value="AlaCarte@secure.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="#duQ!@generatepass.io" readonly>
+        </td>
+      </tr>
+      <tr>
+        <div class="btnYY"></div>                          
+      </tr>
+      <tr>
+        <td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="Premier@epl.io" readonly>               
+        </td>                   
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="%$stQEY1@bitcore.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="KulsoLeague@iqiy.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="qZHwqRTQRG@via99.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text" style="color:rgb(8, 53, 218)" font-size="40" value="$e{3P1w5#4@e%pl.io" readonly>
+        </td>
+        <div class="btnYY"></div>
+        <td>
+          <input class="btn3Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="#%!Injec3Bd@angular.io" readonly>
+        </td>
+      </tr>
+    <div class="btnZZ"></div>
+    <tr>
+      <div class="btnYY"></div>
+    </tr>
+    </div>
+    </div>
+    <div class="btnYY"></div><div class="btnYY"></div><div class="btnYY"></div>
+    <div class="container">
+      <div class="btn2">
+      <tr>
+      <td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td>
+      <td>
+      <h3 class="btn1Z"  href="javascript:void(0)" style="color:rgb(8, 53, 218)">Please arrange all 5 sets. [via Password]</h3>
+      <!-- <input class="btn3Y"  type="text" font-size="45"  style="color:blue" value="Please arrange all 5 sets."> -->
+      </td>
+      </tr>
+      <div class="btnYY"></div>
+      <tr>
+      <td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="Felicitations!" readonly>               
+      </td>                   
+      <div class="btnYY"></div>             
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="BaanNokHook" readonly>
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="InR5cCI6IkpXV" readonly>
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="CompressorNode" readonly>
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text" style="color:rgb(8, 53, 218)" font-size="40" value="appelez-Wagyu" readonly>  
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="Dynamics" readonly>
+      </td>
+      </tr>
+      <div class="btnZZ"></div>  
+      <tr>
+      <td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td><td><div class="btnYY"></div></td>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="#726faa55dcac37d6**!!" readonly>               
+      </td>                   
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="@e%pl.io#jǺ7ך'r^wi" readonly>
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="8tHoU0H!1&&?" readonly>
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="#@@@=!!11" readonly>  
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text" style="color:rgb(8, 53, 218)" font-size="40" value="elisabeth " readonly>
+      </td>
+      <div class="btnYY"></div>
+      <td>
+      <input class="btn1Y"  type="text"  style="color:rgb(8, 53, 218)" font-size="40" value="reFreSh" readonly>
+      </td>
+      </tr>                             
+      <tr>
+      <div class="btnYY"></div>
+      </tr>
+      </div>
+    </div> 
+
+
+<style>
+        .btn {
+          background: "";
+          border: solid 1px #6C8FFF;
+          background: linear-gradient(180deg, #6C8FFF 0%, #2A4395 35%, #09184B 100%);
+          border-radius: 8px;
+          color: rgb(153, 153, 158);
+          padding: .75rem 1.5rem;
+          width:2250px;
+          height:100px;
+      }
+      .btnX {
+        background: "";
+        border: solid 1px #a00bcd;
+        /* background: linear-gradient(180deg, #6C8FFF 0%, #2A4395 35%, #09184B 100%); */
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:250px;
+        height:330px;
+      }
+      .btnXC {
+        background: "";
+        border: solid 1px #a00bcd;
+        /* background: linear-gradient(180deg, #6C8FFF 0%, #2A4395 35%, #09184B 100%); */
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:2250px;
+        height:800px;
+      }
+      .btnEM {
+        background: "";
+        border: solid 1px None;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:2250px;
+        height:30px;
+      }
+      .btnYY {
+        background: "";
+        border: solid 1px None;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:10px;
+        height:10px;
+      }
+      .btnZZ {
+        background: "";
+        border: solid 1px none;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:800px;
+        height:50;
+      }
+      .btnTx {
+        background: "";
+        border: solid 1px #6cffa4;
+        background: linear-gradient(180deg, white  0%,  white  35%, white 100%);
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:2200px;
+        height:80px;
+      }
+      .btnTy {
+        background: "";
+        border: solid 1px #ffa64d;
+        background: linear-gradient(180deg, white  0%,  white  35%, white 100%);
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:2200px;
+        height:600px;
+      }
+      .btn1 {
+        background: "";
+        border: solid 1px None;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:250px;
+        height:30;
+      }
+      .btn1Y {
+        background: rgba(255, 255, 255, 0.908);
+        border: solid 1px rgba(235, 6, 79, 0.908);
+        background: linear-gradient(180deg, none);
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:150px;
+        height:30;
+      }
+      .btn1Z {
+        background: rgba(255, 255, 255, 0.908);
+        border: solid 1px rgba(193, 6, 235, 0.96);
+        background: linear-gradient(180deg, none);
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:320px;
+        height:30;
+      }
+      .btn2 {
+        background: "";
+        border: solid 1px None;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:250px;
+        height:30;
+      }
+      .btn3 {
+        background: "";
+        border: solid 1px gold;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:250px;
+        height:30;
+      }
+      .btn3X {
+        background: "";
+        border: solid 1px none;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:250px;
+        height:30;
+      }
+      .btn3Y {
+        background: rgba(255, 255, 255, 0.908);
+        border: solid 1px rgba(6, 235, 205, 0.908);
+        background: linear-gradient(180deg, none);
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:150px;
+        height:30;
+      }
+      .btn3Z {
+        background: rgba(255, 255, 255, 0.908);
+        border: solid 1px rgba(235, 6, 178, 0.908);
+        background: linear-gradient(180deg, none);
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:320px;
+        height:30;
+      }
+      .btn4 {
+        background: "";
+        border: solid 1px gold;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:250px;
+        height:30;
+      }
+      .btn5 {
+        background: "";
+        border: solid 1px gold;
+        border-radius: 8px;
+        color: rgb(153, 153, 158);
+        padding: .75rem 1.5rem;
+        width:800px;
+        height:50;
+      }
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+</style>

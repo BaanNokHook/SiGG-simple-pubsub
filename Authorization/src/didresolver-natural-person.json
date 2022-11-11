@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:nxl:zpBqM2DGALyfULDjNTp95cXrSjcNG6b1fYeNZD6WhPEgi",
+  "verificationMethod": [
+    {
+      "id": "did:nxl:zpBqM2DGALyfULDjNTp95cXrSjcNG6b1fYeNZD6WhPEgi#vRvB-Rsz6LwDnDClWZR__s4rVV9tdZLGaGT3EA96HCM",
+      "type": "JsonWebKey2020",
+      "controller": "did:nxl:zpBqM2DGALyfULDjNTp95cXrSjcNG6b1fYeNZD6WhPEgi",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "Gk0927lG8jRAd-6z-jQdhN-pcELMxKEQJRhPuzz4nic",
+        "y": "zPs6-edBMiY7rOCLBn87Bp2pINeskJV_7KnFd0nNHGQ",
+        "kid": "vRvB-Rsz6LwDnDClWZR__s4rVV9tdZLGaGT3EA96HCM"
+      }
+    }
+  ],
+  "authentication": [
+    "did:nxl:zpBqM2DGALyfULDjNTp95cXrSjcNG6b1fYeNZD6WhPEgi#vRvB-Rsz6LwDnDClWZR__s4rVV9tdZLGaGT3EA96HCM"
+  ],
+  "assertionMethod": [
+    "did:nxl:zpBqM2DGALyfULDjNTp95cXrSjcNG6b1fYeNZD6WhPEgi#vRvB-Rsz6LwDnDClWZR__s4rVV9tdZLGaGT3EA96HCM"
+  ]
+}

@@ -1,0 +1,52 @@
+<div [formGroup]="form" class="course-details-form">
+
+      <mat-radio-group class="course-type" formControlName="courseType">
+  
+          <mat-radio-button [disabled]="true" value="free">Free</mat-radio-button>
+  
+          <mat-radio-button value="premium">Premium</mat-radio-button>
+  
+      </mat-radio-group>
+  
+     
+  
+      <mat-form-field appearance="outline">
+  
+          <input matInput formControlName="releasedAt"
+                 placeholder="Release date" [matDatepicker]="releasedAtPicker">
+  
+          <mat-datepicker-toggle matSuffix [for]="releasedAtPicker">
+  
+  
+          </mat-datepicker-toggle>
+  
+          <mat-datepicker #releasedAtPicker [dateClass]="dateClass">
+  
+  
+          </mat-datepicker>
+  
+  
+      </mat-form-field>
+  
+      <mat-checkbox color="primary" formControlName="downloadsAllowed"
+          [indeterminate]="true">
+  
+          Downloads allowed?
+  
+      </mat-checkbox>
+  
+      <mat-form-field appearance="outline" readonly>
+  
+          <textarea matInput placeholder="Description" formControlName="longDescription"
+  
+                    cdkTextareaAutosize [cdkAutosizeMinRows]="2"
+                    [cdkAutosizeMaxRows]="5"  readonly>
+  
+  
+          </textarea>
+  
+      </mat-form-field>
+  
+  
+  </div>
+  

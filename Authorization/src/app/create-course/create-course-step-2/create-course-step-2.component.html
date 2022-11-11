@@ -1,0 +1,43 @@
+<div [formGroup]="form" class="course-details-form">
+
+
+      <mat-form-field>
+  
+  
+          <input matInput placeholder="Select Credential Type" formControlName="title" #title readonly>
+  
+  
+  
+  
+      </mat-form-field>
+  
+      <mat-radio-group class="course-type" formControlName="courseType">
+  
+          <mat-radio-button [disabled]="true" value="free">Free</mat-radio-button>
+  
+          <mat-radio-button value="premium">Premium</mat-radio-button>
+  
+      </mat-radio-group>
+  
+      <mat-form-field>
+  
+          <mat-select formControlName="category"
+                      placeholder="Select Credential Type">
+  
+              <mat-option>None</mat-option>
+              
+                  <mat-option value="VerifiableID">Verifiable ID</mat-option>
+                  <mat-option value="Diploma">Diploma</mat-option>
+                  <mat-option value="StudentID">Student D</mat-option>
+  
+          </mat-select>
+  
+      </mat-form-field>
+
+
+  
+  </div>
+  
+  
+  
+  

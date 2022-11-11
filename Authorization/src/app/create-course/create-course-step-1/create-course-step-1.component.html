@@ -1,0 +1,69 @@
+<div [formGroup]="form" class="course-details-form">
+
+    <div>
+        <button mat-raised-button color="primary" matStepperNext (click)="toggle()" id="bt">
+            {{buttonName}}
+        </button>
+
+    </div>
+
+    <mat-radio-group class="course-type" formControlName="courseType">
+
+        <mat-radio-button [disabled]="true" value="free">Free</mat-radio-button>
+
+        <mat-radio-button value="premium">Premium</mat-radio-button>
+
+    </mat-radio-group>
+
+
+    <mat-form-field appearance="outline">
+
+        <input matInput formControlName="releasedAt"
+               placeholder="Release date" [matDatepicker]="releasedAtPicker" readonly>
+
+        <mat-datepicker-toggle matSuffix [for]="releasedAtPicker" readonly>
+
+
+        </mat-datepicker-toggle>
+
+        <mat-datepicker #releasedAtPicker [dateClass]="dateClass" readonly>
+
+
+        </mat-datepicker>
+
+
+    </mat-form-field>
+
+    <mat-checkbox color="primary" formControlName="downloadsAllowed"
+        [indeterminate]="true">
+
+        Downloads allowed?
+        
+    </mat-checkbox>
+
+    <mat-form-field appearance="outline">
+        <ng-container *ngIf="show">
+            <textarea matInput placeholder="Description" formControlName="longDescription"
+        
+            cdkTextareaAutosize [cdkAutosizeMinRows]="2"
+            [cdkAutosizeMaxRows]="5" readonly>
+        
+        
+        </textarea>
+        </ng-container>
+      
+
+    </mat-form-field>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "nextclan:loaffinity:33308",
+  "type": [
+    "VerifiableCredential",
+    "VerifiableAttestation",
+    "VerifiableId",
+    "VerifiableAuthorisation"
+  ],
+  "issuer": "did:nxl:zr2rWDHHrUCdZAW7wsSb5nQ",
+  "issuanceDate": "2022-11-01T00:00:00Z",
+  "validFrom": "2022-11-01T00:00:00Z",
+  "issued": "2022-11-01T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:nxl:zjWWNF7nxcbxmfFCDd1DqNcmvVFJZC8B4mEYdB32NA7Qg",
+    "personalIdentifier": "IT/DEU/33308",
+    "familyName": "Strange",
+    "middlename": "Vincent",
+    "firstName": "Stephen",
+    "dateOfBirth": "1930-10-01"
+  },
+  "credentialSchema": {
+    "id": "https://api.preprod.nextclan.th/trusted-schemas-registry/v2/schemas/0xad457662a535791e888994e97d7b5e0cdd09fbae2c8900039d2ee2d9a64969b1",
+    "type": "FullJsonSchemaValidator2021"
+  },
+  "expirationDate": "2023-11-30T00:00:00Z"
+}
+

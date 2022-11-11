@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:nxl:zimgmU9pFvsDDNddH23NRjk",
+  "verificationMethod": [
+    {
+      "id": "did:nxl:zimgmU9pFvsDDNddH23NRjk#keys-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:nxl:zimgmU9pFvsDDNddH23NRjk",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "LgX3MwtAnT7NqNwVnS77cNBVwq7SBEF1-yWc3oP4OTk",
+        "y": "SU55DunP0QHE9ejRE5b_j02BUOlcDm78zoeqRN8Mfg4"
+      }
+    }
+  ],
+  "authentication": [
+    "did:nxl:zimgmU9pFvsDDNddH23NRjk#keys-1"
+  ],
+  "assertionMethod": [
+    "did:nxl:zimgmU9pFvsDDNddH23NRjk#keys-1"
+  ]
+}
